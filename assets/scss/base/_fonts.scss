@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-display: swap;
+  src: local('HelveticaNeue Light'), local('HelveticaNeueLight'),
+    url('~assets/fonts/helvetica-neue-light.woff2') format('woff2'),
+    url('~assets/fonts/helvetica-neue-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-display: swap;
+  src: local('HelveticaNeue'),
+    url('~assets/fonts/helvetica-neue.woff2') format('woff2'),
+    url('~assets/fonts/helvetica-neue.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-display: swap;
+  src: local('Helvetica Neue Medium'), local('HelveticaNeue-Medium'),
+    url('~assets/fonts/helvetica-neue-medium.woff2') format('woff2'),
+    url('~assets/fonts/helvetica-neue-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Orpheus Pro';
+  font-display: swap;
+  src: local('Orpheus Pro'), local('OrpheusPro'),
+    url('~assets/fonts/orpheus-pro.woff2') format('woff2'),
+    url('~assets/fonts/orpheus-pro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

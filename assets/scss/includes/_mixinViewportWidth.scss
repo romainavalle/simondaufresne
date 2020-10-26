@@ -1,0 +1,6 @@
+@function vw($width) {
+  @return 100 * $width / 1380 * 1vw;
+}
+@function vwM($width) {
+  @return 100 * $width / 420 * 1vw;
+}

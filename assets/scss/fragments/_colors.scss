@@ -1,0 +1,92 @@
+.light {
+  color: $black;
+  background: $white;
+
+  .loader {
+    background: $white;
+    svg:nth-child(2) {
+      fill: $white;
+    }
+    svg:nth-child(3) {
+      fill: $black;
+    }
+    svg:nth-child(4) {
+      fill: $white;
+    }
+    svg:nth-child(5) {
+      fill: $black;
+    }
+  }
+  .counter {
+    color: $white;
+  }
+  .progress {
+    background: $black;
+  }
+  .inverse {
+    color: $white;
+    background: $black;
+  }
+
+  .scroll {
+    background: $white;
+  }
+  .work-container {
+    background: $white;
+  }
+  .top {
+    a.home,
+    a.projects,
+    a.about {
+      color: $white;
+    }
+    .home svg {
+      fill: $white;
+    }
+  }
+}
+
+.dark {
+  color: $white;
+  background: $black;
+  .loader {
+    background: $black;
+    svg:nth-child(2) {
+      fill: $black;
+    }
+    svg:nth-child(3) {
+      fill: $white;
+    }
+    svg:nth-child(4) {
+      fill: $black;
+    }
+    svg:nth-child(5) {
+      fill: $white;
+    }
+  }
+
+  .progress {
+    background: $white;
+  }
+  .counter {
+    color: $black;
+  }
+  .inverse {
+    color: $black;
+    background: $white;
+  }
+
+  .top {
+    a.home,
+    a.projects,
+    a.about {
+      color: $black;
+    }
+    .home svg {
+      fill: $black;
+    }
+  }
+  .work-container {
+    background: $black;
+  }
+}

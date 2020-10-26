@@ -1,0 +1,37 @@
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/typos';
+@import 'fragments/top';
+@import 'fragments/container';
+@import 'fragments/colors';
+html {
+}
+html,
+body,
+#__nuxt,
+#__layout,
+.__layout {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  overscroll-behavior: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.no-touch::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: transparent;
+}
+.no-touch::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+.no-touch::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  scrollbar-width: none;
+}
