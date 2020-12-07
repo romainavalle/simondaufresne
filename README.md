@@ -7,7 +7,7 @@ The only reason am sharing this code is to help people to find their way into fr
 
 [https://simondaufresne.com](https://simondaufresne.com).
 
-You ll need to install [https://greensock.com/splittext/](gsap splitText) to make it works
+You ll need to install [https://greensock.com/splittext](gsap splitText) to make it works
 
 ## Build Setup
 
